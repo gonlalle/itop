@@ -76,15 +76,15 @@ $MySettings = array(
      ),
    ),
 
-   'db_host' => 'localhost',
+   'db_host' => 'bkoymltisy9m9ix3n959-mysql.services.clever-cloud.com',
 
-   'db_name' => 'sys',
+   'db_name' => 'bkoymltisy9m9ix3n959',
 
-   'db_pwd' => '',
+   'db_pwd' => 'sW7YzQ0VRvnRsMZ086Tm',
 
    'db_subname' => '',
 
-   'db_user' => 'root',
+   'db_user' => 'ueeorczbau7imhvb',
 
    // deadline_format: The format used for displaying "deadline" attributes: any string with the following placeholders: $date$, $difference$
    // default: '$difference$'
