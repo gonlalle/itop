@@ -29,7 +29,7 @@ $MySettings = array(
 
    // app_root_url: Root URL used for navigating within the application, or from an email to the application (you can put $SERVER_NAME$ as a placeholder for the server's name)
    // default: ''
-   'app_root_url' => 'http://localhost:8000/Itop/web/',
+   'app_root_url' => 'http://app-95e4c6ae-a485-408b-8906-7f0851c5a170.cleverapps.io/',
 
    // behind_reverse_proxy: If true, then proxies custom header (X-Forwarded-*) are taken into account. Use only if the webserver is not publicly accessible (reachable only by the reverse proxy)
    // default: false
