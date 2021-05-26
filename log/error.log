@@ -1,0 +1,68 @@
+2021-05-21 20:44:32 | Error   | Uncaught Error: Call to a member function query() on null in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:671
+Stack trace:
+#0 C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php(648): CMDBSource::DBQuery('SELECT COUNT(*)...')
+#1 C:\AppServ\www\Itop\web\core\dbobjectset.class.php(912): CMDBSource::Query('SELECT COUNT(*)...')
+#2 C:\AppServ\www\Itop\web\application\applicationcontext.class.inc.php(153): DBObjectSet->CountWithLimit(2)
+#3 C:\AppServ\www\Itop\web\application\applicationcontext.class.inc.php(118): ApplicationContext->ReadContext()
+#4 C:\AppServ\www\Itop\web\application\nicewebpage.class.inc.php(195): ApplicationContext->__construct()
+#5 C:\AppServ\www\Itop\web\application\nicewebpage.class.inc.php(126): NiceWebPage->GetApplicationContext()
+#6 C:\AppServ\www\Itop\web\application\errorpage.class.inc.php(12): NiceWebPage->__construct('iTop - Error Fa...')
+#7 C:\AppServ\www\Itop\web\pages\csvimport.php(1493): ErrorPage->__construct('iTop - Error Fa...')
+#8 {main}
+  thrown | IssueLog
+2021-05-21 20:45:12 | Error   | Uncaught Error: Call to a member function query() on null in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:671
+Stack trace:
+#0 C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php(648): CMDBSource::DBQuery('SELECT COUNT(*)...')
+#1 C:\AppServ\www\Itop\web\core\dbobjectset.class.php(912): CMDBSource::Query('SELECT COUNT(*)...')
+#2 C:\AppServ\www\Itop\web\application\applicationcontext.class.inc.php(153): DBObjectSet->CountWithLimit(2)
+#3 C:\AppServ\www\Itop\web\application\applicationcontext.class.inc.php(118): ApplicationContext->ReadContext()
+#4 C:\AppServ\www\Itop\web\application\nicewebpage.class.inc.php(195): ApplicationContext->__construct()
+#5 C:\AppServ\www\Itop\web\application\nicewebpage.class.inc.php(126): NiceWebPage->GetApplicationContext()
+#6 C:\AppServ\www\Itop\web\application\errorpage.class.inc.php(12): NiceWebPage->__construct('iTop - Error Fa...')
+#7 C:\AppServ\www\Itop\web\pages\csvimport.php(1493): ErrorPage->__construct('iTop - Error Fa...')
+#8 {main}
+  thrown | IssueLog
+2021-05-21 20:45:18 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 1045, mysql_error = Access denied for user 'root'@'localhost' (using password: NO) in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-21 20:46:24 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 1045, mysql_error = Access denied for user 'root'@'localhost' (using password: NO) in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-21 20:47:12 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 1045, mysql_error = Access denied for user 'root'@'localhost' (using password: NO) in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-26 20:46:12 | Error   | Uncaught Error: Call to a member function query() on null in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:671
+Stack trace:
+#0 C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php(648): CMDBSource::DBQuery('SELECT COUNT(*)...')
+#1 C:\AppServ\www\Itop\web\core\dbobjectset.class.php(912): CMDBSource::Query('SELECT COUNT(*)...')
+#2 C:\AppServ\www\Itop\web\application\applicationcontext.class.inc.php(153): DBObjectSet->CountWithLimit(2)
+#3 C:\AppServ\www\Itop\web\application\applicationcontext.class.inc.php(118): ApplicationContext->ReadContext()
+#4 C:\AppServ\www\Itop\web\application\nicewebpage.class.inc.php(195): ApplicationContext->__construct()
+#5 C:\AppServ\www\Itop\web\application\nicewebpage.class.inc.php(126): NiceWebPage->GetApplicationContext()
+#6 C:\AppServ\www\Itop\web\application\errorpage.class.inc.php(12): NiceWebPage->__construct('iTop - Error Fa...')
+#7 C:\AppServ\www\Itop\web\pages\csvimport.php(1493): ErrorPage->__construct('iTop - Error Fa...')
+#8 {main}
+  thrown | IssueLog
+2021-05-26 20:50:58 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 2054, mysql_error = The server requested authentication method unknown to the client in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-26 20:51:15 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 2054, mysql_error = The server requested authentication method unknown to the client in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-26 20:54:42 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 2054, mysql_error = The server requested authentication method unknown to the client in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-26 20:54:44 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 2054, mysql_error = The server requested authentication method unknown to the client in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-26 20:54:46 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 2054, mysql_error = The server requested authentication method unknown to the client in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-26 20:54:47 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 2054, mysql_error = The server requested authentication method unknown to the client in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-26 20:54:47 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 2054, mysql_error = The server requested authentication method unknown to the client in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-26 20:54:48 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 2054, mysql_error = The server requested authentication method unknown to the client in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-26 20:56:57 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 2054, mysql_error = The server requested authentication method unknown to the client in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-26 20:56:59 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 2054, mysql_error = The server requested authentication method unknown to the client in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-26 20:56:59 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 2054, mysql_error = The server requested authentication method unknown to the client in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-26 20:57:00 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 2054, mysql_error = The server requested authentication method unknown to the client in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
+2021-05-26 20:57:00 | Error   | Uncaught MySQLException: Could not connect to the DB server: host = localhost, user = root, mysql_errno = 2054, mysql_error = The server requested authentication method unknown to the client in C:\AppServ\www\Itop\web\core\cmdbsource.class.inc.php:265
+ | IssueLog
