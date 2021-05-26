@@ -78,7 +78,7 @@ $MySettings = array(
 
    'db_host' => 'bkoymltisy9m9ix3n959-mysql.services.clever-cloud.com',
 
-   'db_name' => 'bkoymltisy9m9ix3n959',
+   'db_name' => '',
 
    'db_pwd' => 'sW7YzQ0VRvnRsMZ086Tm',
 
