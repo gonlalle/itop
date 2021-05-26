@@ -2290,7 +2290,7 @@ class MFElement extends Combodo\iTop\DesignElement
     *
     * @param MFElement $oNewNode The replacement
     */
-   public function ReplaceWith($oNewNode)
+   peotected function ReplaceWith($oNewNode)
    {
       // Move the classes from the old node into the new one
       if ($this->IsClassNode())
