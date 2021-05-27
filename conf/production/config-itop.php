@@ -14,8 +14,8 @@ $MySettings = array(
    'access_message' => 'iTop is temporarily frozen, please wait... (the admin team)',
 
    // access_mode: Access mode: ACCESS_READONLY = 0, ACCESS_ADMIN_WRITE = 2, ACCESS_FULL = 3
-   // default: 0
-   'access_mode' => 0,
+   // default: 3
+   'access_mode' => 3,
 
    'allowed_login_types' => 'form|external|basic',
 
